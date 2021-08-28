@@ -7,16 +7,16 @@ public class A {
 
 
     public static void main(String[] args){
-//        List<List<Integer>> res=new LinkedList<>();
-//        List<Integer> temp=new ArrayList<>();
-//        int[] in={1,2,3};
-//        fun(0,in,new Stack<Integer>(),temp,res);
-//        System.out.print(res);
-//        Set<Integer> set=new TreeSet<>();
-//        set.add(8);
-//        set.add(2);
-//        set.add(3);
-//        System.out.print(set);
+        List<List<Integer>> res=new LinkedList<>();
+        List<Integer> temp=new ArrayList<>();
+        int[] in={1,2,3};
+        fun(0,in,new Stack<Integer>(),temp,res);
+        System.out.print(res);
+        Set<Integer> set=new TreeSet<>();
+        set.add(8);
+        set.add(2);
+        set.add(3);
+        System.out.print(set);
     }
 
     static void fun(int n,int[] in, Stack <Integer> stk, List<Integer> temp,List<List<Integer>> res)
