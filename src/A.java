@@ -4,7 +4,9 @@ import java.util.Stack;
 
 public class A {
 
+    public static void test (){
 
+    }
 
     public static void main(String[] args){
         List<List<Integer>> res=new LinkedList<>();
